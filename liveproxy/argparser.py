@@ -34,7 +34,7 @@ parser = argparse.ArgumentParser(
     """),
     epilog=dedent("""
     For more in-depth documentation see:
-      https://github.com/back-to/liveproxy/blob/master/README.md
+      https://github.com/amjiddader/liveproxy/blob/master/README.md
     """)
 )
 
