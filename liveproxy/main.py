@@ -39,7 +39,7 @@ def main():
     else:
         os_version = platform.platform()
 
-    log.info("For LiveProxy support visit https://github.com/back-to/liveproxy")
+    log.info("For LiveProxy support visit https://github.com/amjiddader/liveproxy")
     log.debug(f"OS:         {os_version}")
     log.debug(f"Python:     {platform.python_version()}")
     log.debug(f"LiveProxy:  {liveproxy_version}")
