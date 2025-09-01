@@ -2,8 +2,12 @@
 
 LiveProxy can redirect Livestreams to your favorite player on a lot of devices.
 
+This is forked version of [LiveProxy](https://github.com/back-to/liveproxy) \
+Orignal Repo is no longer maintainer \
+This is new updated version with some fix, PR's are welcome
+
 - Issue Tracker: https://github.com/back-to/liveproxy/issues
-- Github: https://github.com/back-to/liveproxy
+- Github: https://github.com/amjiddader/liveproxy
 
 # INSTALLATION
 
@@ -11,20 +15,20 @@ LiveProxy can redirect Livestreams to your favorite player on a lot of devices.
 
 ```sh
 # Latest pip version:
-python3 -m pip install --upgrade liveproxy
+python3 -m pip install --upgrade liveproxy-fork
 
 # Latest dev version:
-python3 -m pip install --upgrade git+https://github.com/back-to/liveproxy.git
+python3 -m pip install --upgrade git+https://github.com/amjiddader/liveproxy.git
 ```
 
 ## pip as root
 
 ```sh
 # Latest pip version:
-sudo -H python3 -m pip install --upgrade liveproxy
+sudo -H python3 -m pip install --upgrade liveproxy-fork
 
 # Latest dev version:
-sudo -H python3 -m pip install --upgrade git+https://github.com/back-to/liveproxy.git
+sudo -H python3 -m pip install --upgrade git+https://github.com/amjiddader/liveproxy.git
 ```
 
 # URL-GUIDE
@@ -35,7 +39,7 @@ First, start LiveProxy on your system.
 
 ```text
 $ liveproxy
-[main][INFO] For LiveProxy support visit https://github.com/back-to/liveproxy
+[main][INFO] For LiveProxy support visit https://github.com/amjiddader/liveproxy
 [main][INFO] Starting server: 127.0.0.1 on port 53422
 ```
 
@@ -43,7 +47,7 @@ host and port can be changed with `--host` / `--port`
 
 ```text
 $ liveproxy --host 0.0.0.0 --port 12345
-[main][INFO] For LiveProxy support visit https://github.com/back-to/liveproxy
+[main][INFO] For LiveProxy support visit https://github.com/amjiddader/liveproxy
 [main][INFO] Starting server: 0.0.0.0 on port 12345
 ```
 
