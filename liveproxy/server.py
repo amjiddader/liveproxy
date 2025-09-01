@@ -24,8 +24,11 @@ try:
 except AttributeError:
     pass  # Not windows
 
-_re_streamlink = re.compile(r"streamlink", re.IGNORECASE)
-_re_youtube_dl = re.compile(r"(?:youtube|yt)[_-]dl(?:p)?", re.IGNORECASE)
+#_re_streamlink = re.compile(r"streamlink", re.IGNORECASE)
+#_re_youtube_dl = re.compile(r"(?:youtube|yt)[_-]dl(?:p)?", re.IGNORECASE)
+## FIx as per https://github.com/back-to/liveproxy/issues/43#issuecomment-1962436483
+_re_streamlink = re.compile(r"streamlink$", re.IGNORECASE)
+_re_youtube_dl = re.compile(r"(?:youtube|yt)[_-]dl(?:p)?$", re.IGNORECASE)
 
 log = logging.getLogger(__name__.replace("liveproxy.", ""))
 
